@@ -261,12 +261,13 @@ background-attachment: fixed;
     left:0;
     top: 50px;
     text-align: center;
+    cursor: pointer;
    
     
 }
 
 .more a {
-    width: 200px;
+    width: 25%;
     padding: 12px 48px;
     text-align: center;
     background: $color-main; 
@@ -274,6 +275,7 @@ background-attachment: fixed;
     //border: solid px ;
     font-family: $font-text;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .more  a:hover{
@@ -282,6 +284,23 @@ opacity: 0.7;
 }
 /* contact */
 
-.contact{
-      background: #2c3e50;
+.contact {
+    background: #2d3436;
+    
+}
+
+.contact .section-title {
+    color:white;
+    
+    
+    }
+
+input[type=submit]{
+    background:$color-main;
+    border:none;
+    font-family: $font-text;
+    height: 40px;
+    width: 140px;
+    color:white;
+    font-size: 20px;
 }
